@@ -10,12 +10,14 @@ public class EjercicioVectores {
         
         for(int i=0; i<numeros.length; i++){
            suma=suma+numeros[i];
+           System.out.println("Position: "+ numeros[i]);
            
         }
         
         float promedio=suma/numeros.length;
         System.out.println("La suma es de:"+ suma);
         System.out.println("El promedio es de:"+ promedio);
+        
         
     }
     
